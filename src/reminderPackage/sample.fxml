@@ -1,0 +1,17 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Pos?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:controller="reminderPackage.Controller"
+          xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" >
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="1" fx:id="appTitle" text="Medicine Reminder App" stylesheets="@titleStylesheet.css"/>
+    <Text GridPane.rowIndex="3" GridPane.columnIndex="1" fx:id="medicineNameHeader" text="Enter the name of your medication:"/>
+    <TextField GridPane.rowIndex="4" GridPane.columnIndex="1" fx:id="medicineName" promptText="MedicineName"/>
+    <Button GridPane.rowIndex="10" GridPane.columnIndex="1" fx:id=""
+
+</GridPane>
