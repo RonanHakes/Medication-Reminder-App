@@ -1,5 +1,6 @@
 package reminderPackage;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -14,4 +15,8 @@ public class Controller {
     public Label appTitle;
     public Text medicineNameHeader;
     public Button confirmButton;
+
+    public void createReminder(ActionEvent actionEvent) {
+
+    }
 }
